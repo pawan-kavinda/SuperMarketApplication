@@ -1,0 +1,33 @@
+.homecategories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+    padding: 30px;  
+}
+
+.homecategories .container{
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;   
+    margin-top: 30px;
+    justify-content: center;   
+}
+
+.homecategories .container img{
+    width: 100%;
+    border-radius: 30px;
+    display: flex;
+}
+
+.container:hover{
+    background-color: gray;
+} 
+.categoryheader{
+    margin-top: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
